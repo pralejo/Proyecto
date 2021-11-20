@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script type="text/javascript" src="login.js"></script>
+  <link rel="stylesheet" href="estilos2.css">
+  <style type="txt/css"></style>
+
+
+</head>
+
+
+<body>
+  <!--INICIO DE CABECERA-->
+  <header id="header">
+    <div class="wrap">
+
+
+      <nav id="nav">
+        <ul>
+          <li><a href="#">INICIO</a> </li>
+          <li><a href="#">VIAJERO FRECUENTE</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+
+  </header>
+  <!--FIN DE CABECERA-->
+
+  <!--INICIO DE CONTENIDO CENTRAL-->
+  <section class="wrap ">
+    <section id="info">
+      <!--INICIO BANNER-->
+      <div id="banner">
+        <h1>VACACIONA.COM</h1>
+      </div>
+      <!--FIN DE BANNER-->
+    </section>
+    <!--INICIO DE TARJETAS-->
+    <div id="cards" class="wrap">
+
+      <div id="card">
+        <p id="imagen1" class="general"></p>
+        <h2 class="category">San Andres</h2>
+        <p class="description">
+          Ven a disfutar de las hermosas playas del Archipiélago de San Andrés, Providencia y Santa Catalina.
+        </p>
+      </div>
+
+      <div id="card">
+        <p id="imagen2" class="general"></p>
+        <h2 class="category">Santa Marta</h2>
+        <p class="description">
+          Distrito Turístico, Cultural e Histórico
+        </p>
+      </div>
+
+      <div id="card">
+        <p id="imagen3" class="general"></p>
+        <h2 class="category">Cartagena</h2>
+        <p class="description">
+          Sus calles coloridas llenas de encanto la hacen la puerta de entrada a Suramérica.
+        </p>
+      </div>
+
+      <div id="card">
+        <p id="imagen4" class="general"></p>
+        <h2 class="category">Barranquilla</h2>
+        <p class="description">
+          También conocida como la 'Arenosa' o 'Curramba la Bella'
+        </p>
+      </div>
+
+      <div id="card">
+        <p id="imagen5" class="general"></p>
+        <h2 class="category">Panama</h2>
+        <p class="description">
+          Localizado en el istmo que une a Sudamérica con América Central
+        </p>
+      </div>
+    </div>
+    <!--FIN DE TARJETAS-->
+
+
+    <div class="clearfix"></div>
+    <!--INICIO DE BARRA LATERAL-->
+
+    <!--FIN DE BARRA LATERAL-->
+
+    <!--INICIO DE ARTICULOS-->
+    <section id="articles">
+
+
+      <div id="login" class="aside-box">
+        <h3>LOGIN</h3>
+        <form>
+          <label id="user" class=email> </label>
+          <input type="email" id="dato1" placeholder='Usuario o E-mail'>
+
+          <label id="password"></label>
+          <input type="password" id="dato2" placeholder='Contraseña'>
+
+          <input type="submit" id="entrar" value="Entrar" onclick="validar()">
+          <input type="reset" value="Limpiar">
+
+          
+          <a href="#">¿Has olvidado tu contraseña?</a>
+        </form>
+      </div>
+      <aside id="lateral" class="aside-box">
+        <h3>REGISTRATE AQUI</h3>
+        <div id="search">
+          <form>
+            <input type="text" id="registro1" placeholder="Nombre">
+          </form>
+        </div>
+        <div id="search">
+          <form>
+            <input type="text" id="registro2" placeholder="Apellido">
+          </form>
+        </div>
+        <div id="search">
+          <form>
+            <input type="text" id="registro3" placeholder="Contraseña">
+          </form>
+        </div>
+        <div id="search">
+          <form>
+            <input type="text" id="registro4" placeholder="Edad">
+          </form>
+        </div>
+        
+        <input type="submit" id="entrar" value="Registrar" onclick="Registro()">
+        <input type="reset" value="Limpiar">
+
+
+       
+      </aside>
+
+      <div id="location" class="aside-box">
+        <h5>¿DONDE ESTAMOS UBICADOS?</h5>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4140949938746!2d-75.57014538460466!3d6.208986728460684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428298f067e45%3A0x5c67623566bd7fa6!2sParque%20Lleras%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1634616094261!5m2!1ses!2sco"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+
+    </section>
+
+    <!--FIN DE ARTICULOS-->
+  </section>
+  <!--FIN DE CONTENIDO CENTRAL-->
+
+  <div class="clearfix"></div>
+
+  <!--INICIO DE FOOTER-->
+  <footer id="footer">
+    <div class="wrap">
+      <div>
+        </p>
+        <h5>AUTOR</h5>
+        <p id="autor"> &COPY; Pablo Rincón</p>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+
+  <!--FIN DE FOOTER-->
+  
+</body>
+
+</html>
